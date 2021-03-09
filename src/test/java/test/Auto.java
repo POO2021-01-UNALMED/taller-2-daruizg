@@ -41,6 +41,7 @@ public class Auto {
 			}
 		}
 		
+		// Verificación partes del auto
 		if (motor.registro == registro && asientosValidos == true) {
 			return "Auto original";
 		}
